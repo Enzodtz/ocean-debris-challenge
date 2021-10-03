@@ -2,7 +2,7 @@ import { Container } from "react-bootstrap";
 
 export default function TheIdea() {
   return (
-    <section className="the-idea">
+    <section id="theIdea" className="the-idea">
       <Container>
         <h3 className="the-idea-title text-center">The Idea</h3>
         <p className="the-idea-paragraph text-center">

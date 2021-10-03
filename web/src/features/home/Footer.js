@@ -1,5 +1,4 @@
 import { Container } from "react-bootstrap";
-import "./footer.css";
 import logo from "../../assets/images/team_logo.png";
 
 export default function Footer() {

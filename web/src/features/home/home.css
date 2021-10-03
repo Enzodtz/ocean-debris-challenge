@@ -1,3 +1,7 @@
+.navbar {
+  background-color: #013059;
+}
+
 .the-problem {
   background-color: #f7f7f7;
   padding-top: 50px;
@@ -14,6 +18,8 @@
 
 .the-problem-paragraph {
   color: rgba(0, 0, 0, 0.6);
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .the-idea {
@@ -47,6 +53,40 @@
 
 .ocean-data-paragraph {
   color: rgba(0, 0, 0, 0.5);
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.how {
+  background-color: #f7f7f7;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.how-title {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.how-img {
+  width: 100%;
+}
+
+.how-paragraph {
+  color: rgba(0, 0, 0, 0.6);
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #013059;
+}
+
+.footer-text {
+  color: white;
+  font-size: 12px;
 }
 
 @media (max-width: 575.98px) {

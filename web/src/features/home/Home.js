@@ -1,9 +1,10 @@
-import Navbar from "../../components/navbar/Navbar.js";
-import Footer from "../../components/footer/Footer.js";
+import Navbar from "./Navbar.js";
+import Footer from "./Footer.js";
 import MapChart from "./MapChart.js";
 import TheProblem from "./TheProblem.js";
 import TheIdea from "./TheIdea.js";
 import OceanData from "./OceanData.js";
+import How from "./How.js";
 import "./home.css";
 
 function Home() {
@@ -14,6 +15,7 @@ function Home() {
       <TheProblem />
       <TheIdea />
       <OceanData />
+      <How />
       <Footer />
     </div>
   );
