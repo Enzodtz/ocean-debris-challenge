@@ -7,7 +7,9 @@ export default function TheProblem() {
       <Container>
         <Row>
           <Col md={12} lg={6}>
-            <h3 className="the-problem-title">Understanding the Problem</h3>
+            <h3 className="the-problem-title mx-auto">
+              Understanding the Problem
+            </h3>
             <p className="the-problem-paragraph">
               Each year, approximately 10 million tons of garbage end up in the
               sea. Among several types of garbage, plastic is by far or the main

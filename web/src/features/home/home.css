@@ -16,28 +16,46 @@
   color: rgba(0, 0, 0, 0.6);
 }
 
+.the-idea {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.the-idea-title {
+  margin-bottom: 30px;
+}
+
+.the-idea-paragraph {
+  color: rgba(0, 0, 0, 0.5);
+}
+
 @media (max-width: 575.98px) {
-  .the-problem {
+  .the-problem,
+  .the-idea {
     padding-top: 25px;
     padding-bottom: 25px;
   }
-  .the-problem-title {
+  .the-problem-title,
+  .the-idea-title {
     margin-bottom: 15px;
   }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-  .the-problem {
+  .the-problem,
+  .the-idea {
     padding-top: 25px;
     padding-bottom: 25px;
   }
-  .the-problem-title {
+  .the-problem-title,
+  .the-idea-title {
     margin-bottom: 15px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .the-problem {
+  .the-problem,
+  .the-idea {
     padding-top: 30px;
     padding-bottom: 30px;
   }

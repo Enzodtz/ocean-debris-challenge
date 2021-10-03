@@ -10,21 +10,32 @@ import {
 const geoUrl =
   "https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-110m.json";
 
-const markers = [
-  { coordinates: [-58.3816, -34.6037] },
-  { coordinates: [-68.1193, -16.4897] },
-  { coordinates: [-47.8825, -15.7942] },
-  { coordinates: [-70.6693, -33.4489] },
-  { coordinates: [-74.0721, 4.711] },
-  { coordinates: [-78.4678, -0.1807] },
-  { coordinates: [-58.1551, 6.8013] },
-  { coordinates: [-57.5759, -25.2637] },
-  { coordinates: [-55.2038, 5.852] },
-  { coordinates: [-56.1645, -34.9011] },
-  { coordinates: [-66.9036, 10.4806] },
-  { coordinates: [-500.0428, -12.0464] },
-];
+function getRandomArbitrary(min, max) {
+  return Math.random() * (max - min) + min;
+}
 
+const markers = [];
+for (let i = 0; i < 450; i++) {
+  markers.push({
+    coordinates: [getRandomArbitrary(-180, -100), getRandomArbitrary(-50, -0)],
+  });
+}
+for (let i = 0; i < 200; i++) {
+  markers.push({
+    coordinates: [getRandomArbitrary(-30, 0), getRandomArbitrary(-50, -0)],
+  });
+}
+
+for (let i = 0; i < 300; i++) {
+  markers.push({
+    coordinates: [getRandomArbitrary(-50, -20), getRandomArbitrary(10, 50)],
+  });
+}
+for (let i = 0; i < 450; i++) {
+  markers.push({
+    coordinates: [getRandomArbitrary(55, 95), getRandomArbitrary(-50, -0)],
+  });
+}
 const MapChart = () => {
   return (
     <ComposableMap
@@ -47,7 +58,7 @@ const MapChart = () => {
         </Geographies>
         {markers.map(({ coordinates }) => (
           <Marker coordinates={coordinates}>
-            <circle r="0.5" />
+            <circle r=".5" />
           </Marker>
         ))}
       </ZoomableGroup>
