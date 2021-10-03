@@ -1,18 +1,14 @@
 import { Container } from "react-bootstrap";
 import "./footer.css";
+import logo from "../../assets/images/team_logo.png";
 
 export default function Footer() {
   return (
-    <section className="the-idea">
-      <Container>
-        <h3 className="the-idea-title text-center">The Idea</h3>
-        <p className="the-idea-paragraph text-center">
-          We are a team that came up with the idea of ​​creating a website to
-          monitor marine litter, helping politicians, scientists and ordinary
-          citizens to develop ideas and studies to reduce pollution in our seas
-          and oceans and preserve the marine fauna and flora
-        </p>
-      </Container>
+    <section className="footer">
+      <div className="text-center footer-text">
+        <img width="50" src={logo} alt="On Fire logo" />
+        On fire robotics team from Atitude Terra makerspace in São Paulo, Brasil
+      </div>
     </section>
   );
 }
