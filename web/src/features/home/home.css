@@ -17,45 +17,70 @@
 }
 
 .the-idea {
+  background-color: #013059;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
 .the-idea-title {
   margin-bottom: 30px;
+  color: white;
 }
 
 .the-idea-paragraph {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.ocean-data {
+  /* background-color: #f7f7f7; */
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.ocean-data-title {
+  margin-bottom: 30px;
+}
+
+.ocean-data-img {
+  width: 100%;
+}
+
+.ocean-data-paragraph {
   color: rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 575.98px) {
   .the-problem,
-  .the-idea {
+  .the-idea,
+  .ocean-data {
     padding-top: 25px;
     padding-bottom: 25px;
   }
   .the-problem-title,
-  .the-idea-title {
+  .the-idea-title,
+  .ocean-data-title {
     margin-bottom: 15px;
   }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   .the-problem,
-  .the-idea {
+  .the-idea,
+  .ocean-data {
     padding-top: 25px;
     padding-bottom: 25px;
   }
   .the-problem-title,
-  .the-idea-title {
+  .the-idea-title,
+  .ocean-data-title {
     margin-bottom: 15px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   .the-problem,
-  .the-idea {
+  .the-idea,
+  .ocean-data {
     padding-top: 30px;
     padding-bottom: 30px;
   }
