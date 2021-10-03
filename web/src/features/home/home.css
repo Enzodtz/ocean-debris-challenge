@@ -92,13 +92,15 @@
 @media (max-width: 575.98px) {
   .the-problem,
   .the-idea,
-  .ocean-data {
+  .ocean-data,
+  .how {
     padding-top: 25px;
     padding-bottom: 25px;
   }
   .the-problem-title,
   .the-idea-title,
-  .ocean-data-title {
+  .ocean-data-title,
+  .how-title {
     margin-bottom: 15px;
   }
 }
@@ -106,13 +108,15 @@
 @media (min-width: 576px) and (max-width: 767.98px) {
   .the-problem,
   .the-idea,
-  .ocean-data {
+  .ocean-data,
+  .how {
     padding-top: 25px;
     padding-bottom: 25px;
   }
   .the-problem-title,
   .the-idea-title,
-  .ocean-data-title {
+  .ocean-data-title,
+  .how-title {
     margin-bottom: 15px;
   }
 }
@@ -120,7 +124,8 @@
 @media (min-width: 768px) and (max-width: 991.98px) {
   .the-problem,
   .the-idea,
-  .ocean-data {
+  .ocean-data,
+  .how {
     padding-top: 30px;
     padding-bottom: 30px;
   }
