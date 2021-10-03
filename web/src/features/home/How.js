@@ -6,10 +6,10 @@ export default function How() {
     <section id="how" className="how">
       <Container>
         <Row>
-          <Col>
-            <img className="how-img" src={img} alt="River Detection image" />
+          <Col xs={{ order: "last" }} lg={{ order: "first" }}>
+            <img className="how-img" src={img} alt="River Detection" />
           </Col>
-          <Col md={12} lg={6} md={{ order: 1 }}>
+          <Col lg={6} md={12}>
             <h3 className="how-title">But how?</h3>
             <p className="how-paragraph">
               We already have done a few tests with AI recognizing river debris.

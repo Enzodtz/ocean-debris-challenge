@@ -19,11 +19,7 @@ export default function TheProblem() {
             </p>
           </Col>
           <Col>
-            <img
-              className="the-problem-img"
-              src={img}
-              alt="The problem image"
-            />
+            <img className="the-problem-img" src={img} alt="The problem" />
           </Col>
         </Row>
       </Container>

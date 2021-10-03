@@ -23,7 +23,7 @@ export default function OceanData() {
             </p>
           </Col>
           <Col>
-            <img className="ocean-data-img" src={img} alt="Ocean data image" />
+            <img className="ocean-data-img" src={img} alt="Ocean data" />
           </Col>
         </Row>
       </Container>
