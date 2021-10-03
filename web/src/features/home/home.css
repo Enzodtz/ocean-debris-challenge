@@ -1,0 +1,53 @@
+.the-problem {
+  background-color: #f7f7f7;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.the-problem-title {
+  margin-bottom: 30px;
+}
+
+.the-problem-img {
+  width: 100%;
+}
+
+.the-problem-paragraph {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 575.98px) {
+  .the-problem {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .the-problem-title {
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .the-problem {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .the-problem-title {
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .the-problem {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+}
+
+@media (min-width: 1400px) {
+}
